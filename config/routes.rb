@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :signup_apps
   get '/campers', to: "campers#index", as: "campers"
   get '/activities', to: "activities#index", as: "activities"
 
